@@ -210,7 +210,7 @@ footer {
   background-color: #7c090c;
 }
 .bg-white {
-  background-color: #fafafa;
+  background-color: #fafafa !important;
 }
 .bg-grey {
   background-color: #ebebeb;
@@ -331,7 +331,7 @@ label {
   margin: 0 auto;
 }
 .verified-section {
-  max-width: 930px;
+  max-width: 970px;
   margin: 0 auto;
 }
 .verified_pane {
@@ -345,15 +345,21 @@ label {
   width: unset;
   justify-content: flex-end;
 }
-.badge,
+.badge_img,
 .verified_user img {
   height: fit-content;
   width: 30px;
+}
+.inche_img {
+  width: 130px;
 }
 .badge_text {
   color: #00c3ff;
   font-size: 16px;
   margin-left: 1rem;
+}
+.gradiant {
+  margin: 0 auto;
 }
 .verified_user {
   padding: 10px 15px;
@@ -368,6 +374,7 @@ label {
 .check {
   width: fit-content;
   height: fit-content;
+  margin-left: 0;
   margin-right: 15px;
 }
 .grid_des {
@@ -587,6 +594,9 @@ label span.red {
 .footer-nav.red {
   color: #ff0f0f;
 }
+.footer-nav span a {
+  color: #ff0f0f; 
+}
 .footer-nav .disclaimer_text {
   display: block;
   padding: 5px 10px;
@@ -773,9 +783,6 @@ label span.red {
   }
 }
 @media (max-width: 767px) {
-  .container {
-    width: unset;
-  }
   .desktop-only {
     display: none;
   }
@@ -801,6 +808,9 @@ label span.red {
     max-width: 100%;
     flex: unset;
   }
+  .form-select {
+    height: 27px;
+  }
   h1 {
     font-size: 30px;
   }
@@ -820,31 +830,39 @@ label span.red {
     width: 50%;
   }
   .cta_btn {
-    font-size: 12px;
+    width: 60%;
+    font-size: 10px;
     padding: 5px 20px;
   }
   .logo {
-    width: 50%;
+    width: 80%;
     margin-top: 15px;
   }
   .header_title {
     font-size: 15px;
   }
   .header_main {
-    width: 80%;
+    width: 100%;
   }
   .title {
     font-size: 20px;
   }
+  .nav-wrapper {
+    flex-direction: row;
+  }
   .verified_pane {
     width: calc(100% - 20px);
-    font-size: 12px;
+    font-size: 10px;
   }
-  .badge, .verified_user img {
+  .badge_img, .verified_user img {
     width: 20px;
   }
   .badge_text {
     margin-left: 8px;
+    font-size: 10px;
+  }
+  .inche_img {
+    width: 100px;
   }
   .gradiant img {
     height: 2px;
@@ -854,6 +872,8 @@ label span.red {
   }
   .bottle {
     width: 80%;
+    z-index: 1;
+    top: 0;
   }
   .check {
     width: 25px;

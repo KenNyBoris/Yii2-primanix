@@ -71,7 +71,7 @@
   src: url("./fonts/Montserrat-Regular.ttf");
 }
 body {
-  font-family: 'Poppins';
+  font-family: 'Poppins' !important;
   margin: 0;
 }
 ul {

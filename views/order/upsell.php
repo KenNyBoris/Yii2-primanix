@@ -36,7 +36,7 @@ if(isset($_SESSION['previous_order'])){
   }
 }
 ?>
-<!-- Intro Section -->
+<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <div class="upsell-header">
   <img class="upsell_header" src="/images/upsell/upsell_header.png">
   <div class="container d-flex flex-direction-column">
@@ -58,6 +58,7 @@ if(isset($_SESSION['previous_order'])){
     </div>
   </div>
 </div>
+<!-- Intro Section -->
 <section class="intro-section">
   <div class="container text-center">
     <div class="content text-center">

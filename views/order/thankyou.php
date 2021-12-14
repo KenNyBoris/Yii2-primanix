@@ -1,10 +1,11 @@
 <?php
+use app\helpers\UtilityHelper;
 $this->params['data'] = ['page' => 'thankyou', 'title' => 'Thank you!'];
 ?>
 <div class="upsell-header">
   <img class="upsell_header" src="/images/upsell/upsell_header.png">
   <div class="container d-flex flex-direction-column">
-    <p class="title white RiftDemiItalic">CALL TOLL FREE 1-800-296-1686</p>
+    <p class="title white RiftDemiItalic">CALL TOLL FREE <a class="white" href="tel:<?= UtilityHelper::getCustomParameters('SitePhone'); ?>"><?= UtilityHelper::getCustomParameters('SitePhone'); ?></a></p>
   </div>
   <div class="upsell-main position-relative">
     <img class="upsell_main" src="/images/upsell/upsell_main.png">
@@ -22,10 +23,10 @@ $this->params['data'] = ['page' => 'thankyou', 'title' => 'Thank you!'];
     </div>
   </div>
 </div>
-<section class="main-section py-5">
-  <div class="container text-center py-5">
-    <h1 class="mb-2 red">Thank you</h1>
-    <h2 class="pb-30">For Your Order</h2>
+<section class="main-section wrapper-space">
+  <div class="container text-center">
+    <h1 class="mb-15 red">Thank you</h1>
+    <h2 class="RiftDemiItalic">For Your Order</h2>
   </div>
 </section>
 <section class="footer">

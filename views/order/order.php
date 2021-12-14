@@ -1,12 +1,11 @@
 <?php 
 use app\helpers\UtilityHelper;
 ?>
-<link rel="stylesheet" href="/css/order.css">
 <div class="header-top">
   <div class="container">
     <div class="nav-wrapper">
       <div class="d-flex mr-30">
-        <p class="description white">Call us at <span class="bold"><a class="white" href="tel:<?= UtilityHelper::getCustomParameters('SitePhone'); ?>"><?= UtilityHelper::getCustomParameters('SitePhone'); ?></a></span></p>
+        <p class="description white mt-15 mb-15">Call us at <span class="bold"><a class="white" href="tel:<?= UtilityHelper::getCustomParameters('SitePhone'); ?>"><?= UtilityHelper::getCustomParameters('SitePhone'); ?></a></span></p>
       </div>
       <div class="d-flex">
         <img class="security" src="./images/order/security.png">
@@ -40,69 +39,99 @@ use app\helpers\UtilityHelper;
       <p class="title bold red">YOU COULD BE NEXT!</p>
       <div class="verified-section pt-30">
         <div class="verified_pane pt-15">
-          <div class="verified d-flex align-center pl-15 pr-15">
-            <img class="badge" src="./images/order/badge.png">
-            <span class="badge_text light">Verified Customer</span>
+          <div class="d-flex pt-30 pl-15 pr-15 pb-15 align-center">
+            <p class="verified_text grey text-left pr-15">“For the first time in my life, I feel like a stud. Getting a bigger erection really does some amazing things to your life!”</p>
+            <img class="inche_img" src="/images/order/inche_1.png">
           </div>
-          <p class="verified_text grey text-left pl-15 pr-15">“For the first time in my life, I feel like a stud. Getting a bigger erection really does some amazing things to your life!”</p>
-          <div class="verified_user grey d-flex align-center bg-lightgrey">
-            <img class="mr-15" src="./images/order/verified_user.png">
-            <span class="grey">Liam P. 38 years old.</span>
-          </div>
-        </div>
-        <div class="verified_pane pt-15">
-          <div class="verified d-flex align-center pl-15 pr-15">
-            <img class="badge" src="./images/order/badge.png">
-            <span class="badge_text light">Verified Customer</span>
-          </div>
-          <p class="verified_text grey text-left pl-15 pr-15">“Gained so much in just 5 weeks of taking Superior Male. My erections are way thicker and longer now!”</p>
-          <div class="verified_user grey d-flex align-center bg-lightgrey">
-            <img class="mr-15" src="./images/order/verified_user.png">
-            <span class="grey">Tim C. 29 years old.</span>
+          <div class="d-flex justify-content-between align-center bg-lightgrey">
+            <div class="verified_user grey d-flex align-center">
+              <img class="mr-15" src="./images/order/verified_user.png">
+              <span class="grey">Liam P. 38 years old.</span>
+            </div>
+            <div class="verified d-flex align-center pl-15 pr-15">
+              <img class="badge_img" src="./images/order/badge.png">
+              <span class="badge_text light">Verified Customer</span>
+            </div>
           </div>
         </div>
         <div class="verified_pane pt-15">
-          <div class="verified d-flex align-center pl-15 pr-15">
-            <img class="badge" src="./images/order/badge.png">
-            <span class="badge_text light">Verified Customer</span>
+          <div class="d-flex pt-30 pl-15 pr-15 pb-15 align-center">
+            <p class="verified_text grey text-left pr-15">“Gained so much in just 5 weeks of taking Superior Male. My erections are way thicker and longer now!”</p>
+            <img class="inche_img" src="/images/order/inche_2.png">
           </div>
-          <p class="verified_text grey text-left pl-15 pr-15">My girlfriend got me Superior Male as a prank. Well, this prank is now 8 inches long and she doesn’t know what to do about it!”</p>
-          <div class="verified_user grey d-flex align-center bg-lightgrey">
-            <img class="mr-15" src="./images/order/verified_user.png">
-            <span class="grey">Mark H. 32 years old.</span>
-          </div>
-        </div>
-        <div class="verified_pane pt-15">
-          <div class="verified d-flex align-center pl-15 pr-15">
-            <img class="badge" src="./images/order/badge.png">
-            <span class="badge_text light">Verified Customer</span>
-          </div>
-          <p class="verified_text grey text-left pl-15 pr-15">“Only had to wait for a few days for it to really kick in. Great sex drive and size with Superior Male!”</p>
-          <div class="verified_user grey d-flex align-center bg-lightgrey">
-            <img class="mr-15" src="./images/order/verified_user.png">
-            <span class="grey">Walt N. 43 years old.</span>
+          <div class="d-flex justify-content-between align-center bg-lightgrey">
+            <div class="verified_user grey d-flex align-center">
+              <img class="mr-15" src="./images/order/verified_user.png">
+              <span class="grey">Tim C. 29 years old.</span>
+            </div>
+            <div class="verified d-flex align-center pl-15 pr-15">
+              <img class="badge_img" src="./images/order/badge.png">
+              <span class="badge_text light">Verified Customer</span>
+            </div>
           </div>
         </div>
         <div class="verified_pane pt-15">
-          <div class="verified d-flex align-center pl-15 pr-15">
-            <img class="badge" src="./images/order/badge.png">
-            <span class="badge_text light">Verified Customer</span>
+          <div class="d-flex pt-30 pl-15 pr-15 pb-15 align-center">
+            <p class="verified_text grey text-left pr-15">“My girlfriend got me Superior Male as a prank. Well, this prank is now 8 inches long and she doesn’t know what to do about it!”</p>
+            <img class="inche_img" src="/images/order/inche_3.png">
           </div>
-          <p class="verified_text grey text-left pl-15 pr-15">“Superior Male showed me that I’m not too old to have fun, especially when my wife enjoys the fact that I’m now 9 inches long.”</p>
-          <div class="verified_user grey d-flex align-center bg-lightgrey">
-            <img class="mr-15" src="./images/order/verified_user.png">
-            <span class="grey">Jeff S. 45 years old.</span>
+          <div class="d-flex justify-content-between align-center bg-lightgrey">
+            <div class="verified_user grey d-flex align-center">
+              <img class="mr-15" src="./images/order/verified_user.png">
+              <span class="grey">Mark H. 32 years old.</span>
+            </div>
+            <div class="verified d-flex align-center pl-15 pr-15">
+              <img class="badge_img" src="./images/order/badge.png">
+              <span class="badge_text light">Verified Customer</span>
+            </div>
           </div>
         </div>
         <div class="verified_pane pt-15">
-          <div class="verified d-flex align-center pl-15 pr-15">
-            <img class="badge" src="./images/order/badge.png">
-            <span class="badge_text light">Verified Customer</span>
+          <div class="d-flex pt-30 pl-15 pr-15 pb-15 align-center">
+            <p class="verified_text grey text-left pr-15">“Only had to wait for a few days for it to really kick in. Great sex drive and size with Superior Male!”</p>
+            <img class="inche_img" src="/images/order/inche_4.png">
           </div>
-          <p class="verified_text grey text-left pl-15 pr-15">“Superior Male is definitely worth more than what you pay for. Just the size boost makes it all worth it!”</p>
-          <div class="verified_user grey d-flex align-center bg-lightgrey">
-            <img class="mr-15" src="./images/order/verified_user.png">
-            <span class="grey">Kevin T. 33 years old.</span>
+          <div class="d-flex justify-content-between align-center bg-lightgrey">
+            <div class="verified_user grey d-flex align-center">
+              <img class="mr-15" src="./images/order/verified_user.png">
+              <span class="grey">Walt N. 43 years old.</span>
+            </div>
+            <div class="verified d-flex align-center pl-15 pr-15">
+              <img class="badge_img" src="./images/order/badge.png">
+              <span class="badge_text light">Verified Customer</span>
+            </div>
+          </div>
+        </div>
+        <div class="verified_pane pt-15">
+          <div class="d-flex pt-30 pl-15 pr-15 pb-15 align-center">
+            <p class="verified_text grey text-left pr-15">“Superior Male showed me that I’m not too old to have fun, especially when my wife enjoys the fact that I’m now 9 inches long.”</p>
+            <img class="inche_img" src="/images/order/inche_5.png">
+          </div>
+          <div class="d-flex justify-content-between align-center bg-lightgrey">
+            <div class="verified_user grey d-flex align-center">
+              <img class="mr-15" src="./images/order/verified_user.png">
+              <span class="grey">Jeff S. 45 years old.</span>
+            </div>
+            <div class="verified d-flex align-center pl-15 pr-15">
+              <img class="badge_img" src="./images/order/badge.png">
+              <span class="badge_text light">Verified Customer</span>
+            </div>
+          </div>
+        </div>
+        <div class="verified_pane pt-15">
+          <div class="d-flex pt-30 pl-15 pr-15 pb-15 align-center">
+            <p class="verified_text grey text-left pr-15">“Superior Male is definitely worth more than what you pay for. Just the size boost makes it all worth it!”</p>
+            <img class="inche_img" src="/images/order/inche_6.png">
+          </div>
+          <div class="d-flex justify-content-between align-center bg-lightgrey">
+            <div class="verified_user grey d-flex align-center">
+              <img class="mr-15" src="./images/order/verified_user.png">
+              <span class="grey">Kevin T. 33 years old.</span>
+            </div>
+            <div class="verified d-flex align-center pl-15 pr-15">
+              <img class="badge_img" src="./images/order/badge.png">
+              <span class="badge_text light">Verified Customer</span>
+            </div>
           </div>
         </div>
         <div class="clearfix"></div>
@@ -112,7 +141,7 @@ use app\helpers\UtilityHelper;
       </div>
       <div class="intro-section">
         <p class="title bold">Superior Male is the #1 Rated<br class="desktop-only"> Male Enhancement Formula<br> in the World</p>
-        <div class="intro_section id-flex justify-content-center align-center section-space">
+        <div class="intro_section d-flex justify-content-center align-center section-space">
           <img class="bottle" src="./images/order/bottle.png">
           <div class="grid-wrapper">
             <div class="grid_pane">
@@ -137,7 +166,7 @@ use app\helpers\UtilityHelper;
             </div>
           </div>
         </div>
-        <p class="title-2 semibold">What could you buy<br class="mobile-only"> with $2 a day?</p>
+        <p class="title-2 semibold mb-30">What could you buy<br class="mobile-only"> with $2 a day?</p>
       </div>
     </div>
   </div>
