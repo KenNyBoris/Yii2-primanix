@@ -134,7 +134,7 @@ class OrderController extends Controller
           }
           //$upsell_page = '/upsell';
 
-          $return = ['status' => '100', 'redirect_to' => '/order/upsell'];
+          $return = ['status' => '100', 'redirect_to' => '/products/order/upsell'];
 
           return Yii::$app->response->content = json_encode($return);
         } else {

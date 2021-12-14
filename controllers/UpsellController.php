@@ -36,7 +36,7 @@ class UpsellController extends Controller
 
           if ($upsell->status == Orders::STATUS_CONFIRMED) {
             unset($_SESSION['previous_order']);
-            $data = ['status' => '100', 'redirect_to' => '/order/thankyou'];
+            $data = ['status' => '100', 'redirect_to' => '/products/order/thankyou'];
             return json_encode($data);
           } else {
             //$model->addError('OrderError', $order->errorMessage);

@@ -56,7 +56,7 @@ function orderModalHTML(message, status, hasClose = false) {
   if (hasClose) {
     html += '<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>';
   }
-  html += '<img src="../images/'+ icon +'.png" class="img-fluid" />';
+  html += '<img src="/products/images/'+ icon +'.png" class="img-fluid" />';
   html += '<h3 class="text-center mt-2 mb-3">'+ status +'</h3>';
   html += '<p>'+ message +'</p>';
   
@@ -75,16 +75,16 @@ function paypalSubmit(orderForm, sub_id) {
   });
 }
 function paypalConfirm(sub_id, location_href) {
-  $.get('/order/pp-confirm?id=' + sub_id, function () {
+  $.get('/products/order/pp-confirm?id=' + sub_id, function () {
     console.log("Confirmed " + sub_id);
     window.location.href = location_href;
   });
 }
 function paypalFail(sub_id, error) {
-  $.post("/order/pp-fail", {id: sub_id, error: error});
+  $.post("/products/order/pp-fail", {id: sub_id, error: error});
 }
 function paypalCancel(sub_id) {
-  $.get('/order/pp-cancel?id=' + sub_id, function () {
+  $.get('/products/order/pp-cancel?id=' + sub_id, function () {
     console.log(sub_id);
   });
 }
@@ -95,7 +95,7 @@ function ajaxLoaderHTML(head = 'Please Wait', text = 'Processing your order...')
     <h2>`+ head +`</h2>
     <p>`+ text +`</p>
     <div class="mt-4">
-      <img src="../images/ajax-loader.gif" alt="AJAX Loader" />
+      <img src="/products/images/ajax-loader.gif" alt="AJAX Loader" />
     </div>
   </div>`;
   return html;
@@ -105,7 +105,7 @@ function paypalUpsellSubmit(upsellForm, sub_id) {
   var form = upsellForm.serialize() + '&pp_subscription_id=' + sub_id;
   $.ajax({
       type: 'post',
-      url: '/upsell/upsell-process',
+      url: '/products/upsell/upsell-process',
       data: form,
       success: function (response) {
         console.log('sent');

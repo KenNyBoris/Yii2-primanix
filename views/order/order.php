@@ -8,15 +8,15 @@ use app\helpers\UtilityHelper;
         <p class="description white mt-15 mb-15">Call us at <span class="bold"><a class="white" href="tel:<?= UtilityHelper::getCustomParameters('SitePhone'); ?>"><?= UtilityHelper::getCustomParameters('SitePhone'); ?></a></span></p>
       </div>
       <div class="d-flex">
-        <img class="security" src="./images/order/security.png">
+        <img class="security" src="/products/images/order/security.png">
       </div>
     </div>
   </div>
 </div>
 <div class="header-bottom">
   <div class="container d-flex justify-content-between align-center">
-    <a href="/">
-      <img class="logo" src="./images/order/logo.png">
+    <a href="/products/">
+      <img class="logo" src="/products/images/order/logo.png">
     </a>
     <button class="cta_btn">Order Now</button>
   </div>
@@ -27,7 +27,7 @@ use app\helpers\UtilityHelper;
     <p class="header_title bold grey mt-0">Amazing Results Guaranteed!</p>
     <h2 class="bold">Get the SIZE and SEX DRIVE<br class="desktop-only"> you want in just 15 days!</h2>
     <div class="d-flex pt-30">
-      <img class="header_main" src="./images/order/header_main.png">
+      <img class="header_main" src="/products/images/order/header_main.png">
     </div>
   </div>
 </div>
@@ -41,15 +41,15 @@ use app\helpers\UtilityHelper;
         <div class="verified_pane pt-15">
           <div class="d-flex pt-30 pl-15 pr-15 pb-15 align-center">
             <p class="verified_text grey text-left pr-15">“For the first time in my life, I feel like a stud. Getting a bigger erection really does some amazing things to your life!”</p>
-            <img class="inche_img" src="/images/order/inche_1.png">
+            <img class="inche_img" src="/products/images/order/inche_1.png">
           </div>
           <div class="d-flex justify-content-between align-center bg-lightgrey">
             <div class="verified_user grey d-flex align-center">
-              <img class="mr-15" src="./images/order/verified_user.png">
+              <img class="mr-15" src="/products/images/order/verified_user.png">
               <span class="grey">Liam P. 38 years old.</span>
             </div>
             <div class="verified d-flex align-center pl-15 pr-15">
-              <img class="badge_img" src="./images/order/badge.png">
+              <img class="badge_img" src="/products/images/order/badge.png">
               <span class="badge_text light">Verified Customer</span>
             </div>
           </div>
@@ -57,15 +57,15 @@ use app\helpers\UtilityHelper;
         <div class="verified_pane pt-15">
           <div class="d-flex pt-30 pl-15 pr-15 pb-15 align-center">
             <p class="verified_text grey text-left pr-15">“Gained so much in just 5 weeks of taking Superior Male. My erections are way thicker and longer now!”</p>
-            <img class="inche_img" src="/images/order/inche_2.png">
+            <img class="inche_img" src="/products/images/order/inche_2.png">
           </div>
           <div class="d-flex justify-content-between align-center bg-lightgrey">
             <div class="verified_user grey d-flex align-center">
-              <img class="mr-15" src="./images/order/verified_user.png">
+              <img class="mr-15" src="/products/images/order/verified_user.png">
               <span class="grey">Tim C. 29 years old.</span>
             </div>
             <div class="verified d-flex align-center pl-15 pr-15">
-              <img class="badge_img" src="./images/order/badge.png">
+              <img class="badge_img" src="/products/images/order/badge.png">
               <span class="badge_text light">Verified Customer</span>
             </div>
           </div>
@@ -73,15 +73,15 @@ use app\helpers\UtilityHelper;
         <div class="verified_pane pt-15">
           <div class="d-flex pt-30 pl-15 pr-15 pb-15 align-center">
             <p class="verified_text grey text-left pr-15">“My girlfriend got me Superior Male as a prank. Well, this prank is now 8 inches long and she doesn’t know what to do about it!”</p>
-            <img class="inche_img" src="/images/order/inche_3.png">
+            <img class="inche_img" src="/products/images/order/inche_3.png">
           </div>
           <div class="d-flex justify-content-between align-center bg-lightgrey">
             <div class="verified_user grey d-flex align-center">
-              <img class="mr-15" src="./images/order/verified_user.png">
+              <img class="mr-15" src="/products/images/order/verified_user.png">
               <span class="grey">Mark H. 32 years old.</span>
             </div>
             <div class="verified d-flex align-center pl-15 pr-15">
-              <img class="badge_img" src="./images/order/badge.png">
+              <img class="badge_img" src="/products/images/order/badge.png">
               <span class="badge_text light">Verified Customer</span>
             </div>
           </div>
@@ -89,15 +89,15 @@ use app\helpers\UtilityHelper;
         <div class="verified_pane pt-15">
           <div class="d-flex pt-30 pl-15 pr-15 pb-15 align-center">
             <p class="verified_text grey text-left pr-15">“Only had to wait for a few days for it to really kick in. Great sex drive and size with Superior Male!”</p>
-            <img class="inche_img" src="/images/order/inche_4.png">
+            <img class="inche_img" src="/products/images/order/inche_4.png">
           </div>
           <div class="d-flex justify-content-between align-center bg-lightgrey">
             <div class="verified_user grey d-flex align-center">
-              <img class="mr-15" src="./images/order/verified_user.png">
+              <img class="mr-15" src="/products/images/order/verified_user.png">
               <span class="grey">Walt N. 43 years old.</span>
             </div>
             <div class="verified d-flex align-center pl-15 pr-15">
-              <img class="badge_img" src="./images/order/badge.png">
+              <img class="badge_img" src="/products/images/order/badge.png">
               <span class="badge_text light">Verified Customer</span>
             </div>
           </div>
@@ -105,15 +105,15 @@ use app\helpers\UtilityHelper;
         <div class="verified_pane pt-15">
           <div class="d-flex pt-30 pl-15 pr-15 pb-15 align-center">
             <p class="verified_text grey text-left pr-15">“Superior Male showed me that I’m not too old to have fun, especially when my wife enjoys the fact that I’m now 9 inches long.”</p>
-            <img class="inche_img" src="/images/order/inche_5.png">
+            <img class="inche_img" src="/products/images/order/inche_5.png">
           </div>
           <div class="d-flex justify-content-between align-center bg-lightgrey">
             <div class="verified_user grey d-flex align-center">
-              <img class="mr-15" src="./images/order/verified_user.png">
+              <img class="mr-15" src="/products/images/order/verified_user.png">
               <span class="grey">Jeff S. 45 years old.</span>
             </div>
             <div class="verified d-flex align-center pl-15 pr-15">
-              <img class="badge_img" src="./images/order/badge.png">
+              <img class="badge_img" src="/products/images/order/badge.png">
               <span class="badge_text light">Verified Customer</span>
             </div>
           </div>
@@ -121,15 +121,15 @@ use app\helpers\UtilityHelper;
         <div class="verified_pane pt-15">
           <div class="d-flex pt-30 pl-15 pr-15 pb-15 align-center">
             <p class="verified_text grey text-left pr-15">“Superior Male is definitely worth more than what you pay for. Just the size boost makes it all worth it!”</p>
-            <img class="inche_img" src="/images/order/inche_6.png">
+            <img class="inche_img" src="/products/images/order/inche_6.png">
           </div>
           <div class="d-flex justify-content-between align-center bg-lightgrey">
             <div class="verified_user grey d-flex align-center">
-              <img class="mr-15" src="./images/order/verified_user.png">
+              <img class="mr-15" src="/products/images/order/verified_user.png">
               <span class="grey">Kevin T. 33 years old.</span>
             </div>
             <div class="verified d-flex align-center pl-15 pr-15">
-              <img class="badge_img" src="./images/order/badge.png">
+              <img class="badge_img" src="/products/images/order/badge.png">
               <span class="badge_text light">Verified Customer</span>
             </div>
           </div>
@@ -137,31 +137,31 @@ use app\helpers\UtilityHelper;
         <div class="clearfix"></div>
       </div>
       <div class="gradiant text-center pt-60 pb-60">
-        <img src="./images/order/gradiant.png">
+        <img src="/products/images/order/gradiant.png">
       </div>
       <div class="intro-section">
         <p class="title bold">Superior Male is the #1 Rated<br class="desktop-only"> Male Enhancement Formula<br> in the World</p>
         <div class="intro_section d-flex justify-content-center align-center section-space">
-          <img class="bottle" src="./images/order/bottle.png">
+          <img class="bottle" src="/products/images/order/bottle.png">
           <div class="grid-wrapper">
             <div class="grid_pane">
-              <img class="check" src="./images/order/check.png">
+              <img class="check" src="/products/images/order/check.png">
               <p class="grid_des">Unparalleled Penis Growth Formula</p>
             </div>
             <div class="grid_pane">
-              <img class="check" src="./images/order/check.png">
+              <img class="check" src="/products/images/order/check.png">
               <p class="grid_des">Intense Libido and Sex Drive</p>
             </div>
             <div class="grid_pane">
-              <img class="check" src="./images/order/check.png">
+              <img class="check" src="/products/images/order/check.png">
               <p class="grid_des">Endless Sexual Endurance</p>
             </div>
             <div class="grid_pane">
-              <img class="check" src="./images/order/check.png">
+              <img class="check" src="/products/images/order/check.png">
               <p class="grid_des">Exclusive Ingredients and Premium Extracts</p>
             </div>
             <div class="grid_pane">
-              <img class="check" src="./images/order/check.png">
+              <img class="check" src="/products/images/order/check.png">
               <p class="grid_des">100% SATISFACTION GUARANTEED</p>
             </div>
           </div>
@@ -171,22 +171,22 @@ use app\helpers\UtilityHelper;
     </div>
   </div>
   <div class="wrapper-2 section-space">
-    <img class="bg_wrapper2" src="./images/order/bg_wrapper2.png">
+    <img class="bg_wrapper2" src="/products/images/order/bg_wrapper2.png">
     <div class="container">
       <p class="title-3 bold text-center white mt-0 mb-30">COST PER DAY</p>
       <div class="cost_pane">
         <h3 class="grey medium mr-15 mt-15 mb-15 left">FAST FOOD</h3>
-        <img class="first" src="./images/order/cost_1.png">
+        <img class="first" src="/products/images/order/cost_1.png">
         <h3 class="white medium ml-5 mt-15 mb-15">$10.00</h3>
       </div>
       <div class="cost_pane">
         <h3 class="grey medium mr-15 mt-15 mb-15 left">LARGE CAFFE LATTE</h3>
-        <img src="./images/order/cost_2.png">
+        <img src="/products/images/order/cost_2.png">
         <h3 class="white medium ml-15 mt-15 mb-15">$4.95</h3>
       </div>
       <div class="cost_pane">
         <h3 class="white medium mr-15 mt-15 mb-15 text-right left">SUPERIOR MALE</h3>
-        <img src="./images/order/cost_3.png">
+        <img src="/products/images/order/cost_3.png">
         <h3 class="white medium ml-15 mt-15 mb-15">$2.66</h3>
       </div>
     </div>
@@ -196,18 +196,18 @@ use app\helpers\UtilityHelper;
       <p class="title bold text-center">REAL MEN WANTS<br> REAL RESULTS</p>
       <p class="container text-center pt-30 pb-30">We believe that you shouldn’t pay for anything that does not work. That’s why we’re covering every purchase of Superior Male with our industry - leading 100% money - back guarantee. If you’re not completely satisfied with your results, just call us and we’ll refund 100% of the purchase price!</p>
       <div class="d-flex justify-content-center align-center">
-        <img class="guarantee_money" src="./images/order/guarantee_money.png">
+        <img class="guarantee_money" src="/products/images/order/guarantee_money.png">
         <div class="grid-wrapper">
           <div class="grid_pane">
-            <img class="check" src="./images/order/check.png">
+            <img class="check" src="/products/images/order/check.png">
             <p class="grid_des">RISK - FREE RESULTS</p>
           </div>
           <div class="grid_pane">
-            <img class="check" src="./images/order/check.png">
+            <img class="check" src="/products/images/order/check.png">
             <p class="grid_des">PROFESSIONAL CUSTOMER SUPPORT</p>
           </div>
           <div class="grid_pane">
-            <img class="check" src="./images/order/check.png">
+            <img class="check" src="/products/images/order/check.png">
             <p class="grid_des">100% SATISFACTION GUARANTEED</p>
           </div>
         </div>
@@ -218,8 +218,8 @@ use app\helpers\UtilityHelper;
     <p class="title-2 bold text-center mt-0 mb-0">THE ONLY WAY TO <br>GAIN SIZE AND PERFORMANCE</p>
     <h3 class="header_title bold grey mt-0">Experience the TRUE POTENTIAL of Superior Male</h3>
     <div class="container d-flex justify-content-center align-center">
-      <img class="chart" src="./images/order/chart-1.png">
-      <img class="chart" src="./images/order/chart-2.png">
+      <img class="chart" src="/products/images/order/chart-1.png">
+      <img class="chart" src="/products/images/order/chart-2.png">
     </div>
   </div>
   <div class="wrapper-5 pt-120 pb-60">
@@ -235,11 +235,11 @@ use app\helpers\UtilityHelper;
       <p class="description bold pt-30 mb-0">PHASE 4: PERMANENT SIZE GAIN</p>
       <p class="mt-0">Superior Male allows you to continuously extend your erect penis length and girth, and this allows the body to promote penile tissue growth. As you continue taking Superior Male daily, you will experience a steady growth of your erect and flaccid penis length and girth!</p>
       <div class="d-flex justify-content-center">
-        <img class="flag" src="./images/order/flag.png">
+        <img class="flag" src="/products/images/order/flag.png">
       </div>
     </div>
   </div>
-  <form action="/order/make-order" data-toggle="validator" method="POST" id="orderForm">
+  <form action="/products/order/make-order" data-toggle="validator" method="POST" id="orderForm">
     <input type="hidden" name="OrderForm[keyword]" value="<?= isset($_GET['keyword']) ? $_GET['keyword'] : ''; ?>">
     <input type="hidden" name="OrderForm[adgroupid]" value="<?= isset($_GET['adgroupid']) ? $_GET['adgroupid'] : ''; ?>">
     <input type="hidden" name="OrderForm[utm_campaign]" value="<?= isset($_GET['utm_campaign']) ? $_GET['utm_campaign'] : ''; ?>">
@@ -254,7 +254,7 @@ use app\helpers\UtilityHelper;
           <div class="card">
             <input type="radio" name="product_id" id="pmx_1_month" value="pmx_1_month" class="form-check-input input-radio">
             <label for="pmx_1_month" class="pmx-1-month">
-              <img src="/images/order/mb-placeholder.png" class="img-fluid" alt="">
+              <img src="/products/images/order/mb-placeholder.png" class="img-fluid" alt="">
             </label>
           </div>
         </div>
@@ -262,7 +262,7 @@ use app\helpers\UtilityHelper;
           <div class="card">
             <input type="radio" name="product_id" id="pmx_3_month" value="pmx_3_month" class="form-check-input input-radio" >
             <label for="pmx_3_month" class="pmx-3-month">
-              <img src="/images/order/mb-placeholder.png" class="img-fluid" alt="">
+              <img src="/products/images/order/mb-placeholder.png" class="img-fluid" alt="">
             </label>
           </div>
         </div>
@@ -270,7 +270,7 @@ use app\helpers\UtilityHelper;
           <div class="card">
             <input type="radio" name="product_id" id="pmx_6_month" value="pmx_6_month" class="form-check-input input-radio" checked>
             <label for="pmx_6_month" class="pmx-6-month">
-              <img src="/images/order/mb-placeholder.png" class="img-fluide" alt="">
+              <img src="/products/images/order/mb-placeholder.png" class="img-fluide" alt="">
             </label>
           </div>
         </div>
@@ -367,11 +367,11 @@ use app\helpers\UtilityHelper;
             <div class="form-group payment-method required pt-15">
               <div class="custom-radio d-flex align-center">
                 <input type="radio" id="radioCreditCard" value="credit_card" name="OrderForm[payment_processor]" class="form-check-input custom-control-input" name="OrderForm[payment_processor]" value="credit_card">
-                <label class="custom-control-label d-flex align-center ml-5">Pay with Credit or Debit Card <img src="./images/order/credit_card.png" class="img-fluid ml-30"></label>
+                <label class="custom-control-label d-flex align-center ml-5">Pay with Credit or Debit Card <img src="/products/images/order/credit_card.png" class="img-fluid ml-30"></label>
               </div>
               <div class="custom-radio pt-15 d-flex align-center">
                 <input type="radio" name="OrderForm[payment_processor]" id="radioPaypal" value="paypal" class="form-check-input custom-control-input" name="OrderForm[payment_processor]" value="paypal">
-                <label class="custom-control-label d-flex align-center ml-5">Pay with Paypal <img src="./images/order/paypal_option.png" class="img-fluid ml-30"></label>
+                <label class="custom-control-label d-flex align-center ml-5">Pay with Paypal <img src="/products/images/order/paypal_option.png" class="img-fluid ml-30"></label>
               </div>
             </div>
           </div>
@@ -430,7 +430,7 @@ use app\helpers\UtilityHelper;
             </div>
             <div id="checkForm" class="terms_pane d-flex align-center mt-15 mb-15">
               <input type="checkbox" name="OrderForm[terms]" id="checkboxesTerms" value="1" required checked>
-              <p class="mt-15">Click the checkbox to agree to the <a href="/terms"><span class="medium blue">Subscription Terms and Conditions.</span></a></p>
+              <p class="mt-15">Click the checkbox to agree to the <a href="/products/terms"><span class="medium blue">Subscription Terms and Conditions.</span></a></p>
             </div>
             <div class="disclaimer_pane">
               <p id="termsContainer" class="disclaimer_text pb-30">Subscription Terms and Conditions: For your convenience and to maximize your results you will be enrolled in our auto ship program and in <span class="month"></span> days of placing your order we will automatically send you a fresh <span class="month"></span> supply beginning in <span class="day"></span> days and every <span class="month"></span> thereafter for just $<span class="amount"></span> (free shipping), charged to the card you provide today. You may cancel anytime by emailing <a href="mailto:<?= UtilityHelper::getCustomParameters('SiteEmail'); ?>"><?= UtilityHelper::getCustomParameters('SiteEmail'); ?></a> or calling <a href="tel:<?= UtilityHelper::getCustomParameters('SitePhone'); ?>"><?= UtilityHelper::getCustomParameters('SitePhone'); ?></a>. No future commitments, no hassles. Cancel any time.</p>
@@ -457,14 +457,14 @@ use app\helpers\UtilityHelper;
 </div>
 <div class="footer bg-black pt-30 pb-30">
   <div class="container d-flex flex-direction-column align-center">
-    <a href="/">
-      <img class="logo" src="./images/order/logo.png">
+    <a href="/products">
+      <img class="logo" src="/products/images/order/logo.png">
     </a>
     <p class="footer_des semibold white mb-0"><a class="white" href="tel:<?= UtilityHelper::getCustomParameters('SitePhone'); ?>"><?= UtilityHelper::getCustomParameters('SitePhone'); ?></a></p>
     <div class="footer-nav d-flex red">
-      <span class="disclaimer_text"><a href="./terms">Terms & Conditions</a></span>
-      <span class="disclaimer_text"><a href="./privacy">Privacy Policy</a></span>
-      <span class="disclaimer_text"><a href="/dmca">DMCA</a></span>
+      <span class="disclaimer_text"><a href="/products/terms">Terms & Conditions</a></span>
+      <span class="disclaimer_text"><a href="/products/privacy">Privacy Policy</a></span>
+      <span class="disclaimer_text"><a href="/products/dmca">DMCA</a></span>
     </div>
     <p class="disclaimer_text medium white mt-0">Superior Male © 2021. All Rights Reserved</p>
   </div>

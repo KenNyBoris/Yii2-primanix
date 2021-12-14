@@ -36,24 +36,24 @@ if(isset($_SESSION['previous_order'])){
   }
 }
 ?>
-<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="/products/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <div class="upsell-header">
-  <img class="upsell_header" src="/images/upsell/upsell_header.png">
+  <img class="upsell_header" src="/products/images/upsell/upsell_header.png">
   <div class="container d-flex flex-direction-column">
     <p class="title white RiftDemiItalic">CALL TOLL FREE 1-800-296-1686</p>
   </div>
   <div class="upsell-main position-relative">
-    <img class="upsell_main" src="/images/upsell/upsell_main.png">
+    <img class="upsell_main" src="/products/images/upsell/upsell_main.png">
     <div class="container d-flex justify-content-between align-center">
-      <a href="/">
-        <img class="logo" src="/images/logo_reverse.png">
+      <a href="/products">
+        <img class="logo" src="/products/images/logo_reverse.png">
       </a>
       <div class="d-flex">
-        <span class="white"><a href="/dmca">HOME</a></span>
-        <span class="white"><a href="/terms">HOW IT WORKS</a></span>
-        <span class="white"><a href="/privacy">FAQ</a></span>
-        <span class="white"><a href="/sitemap">GUARANTEE</a></span>
-        <span class="white last"><a class="last" href="/sitemap">ORDER</a></span>
+        <span class="white"><a href="/products/dmca">HOME</a></span>
+        <span class="white"><a href="/products/terms">HOW IT WORKS</a></span>
+        <span class="white"><a href="/products/privacy">FAQ</a></span>
+        <span class="white"><a href="/products/sitemap">GUARANTEE</a></span>
+        <span class="white last"><a class="last" href="/products/sitemap">ORDER</a></span>
       </div>
     </div>
   </div>
@@ -77,7 +77,7 @@ if(isset($_SESSION['previous_order'])){
       <div class="col-xl-6 text-center left mb-3 mb-xl-0">
         <div class="d-flex flex-column flex-lg-row align-items-center flex-xl-column">
           <div class="image">
-            <img src="/images/upsell/ueb-package.png" class="img-fluid" alt="Ultimate Erection Booster">
+            <img src="/products/images/upsell/ueb-package.png" class="img-fluid" alt="Ultimate Erection Booster">
           </div>
           <div class="text">
             <h5 class="RiftMediumItalic">Clinically tested to increase testosterone</h5>
@@ -92,7 +92,7 @@ if(isset($_SESSION['previous_order'])){
           <p>Superior Boost will raise free testosterone allowing you to reach the motst optimal results of penis growth.</p>
           <p class="mb-4">Superior Boost will also give you the hardest and most massive erections possible.</p>
         </div>
-        <form action="/upsell/upsell-process" data-toggle="validator" method="POST" id="upsellForm">
+        <form action="/products/upsell/upsell-process" data-toggle="validator" method="POST" id="upsellForm">
           <input type="hidden" name="UpsellForm[previous_order_id]" value="<?= $previousOrderID; ?>">
           <input type="hidden" name="UpsellForm[selected_product]" value="<?= $selectedProduct; ?>">
           <input type="hidden" name="UpsellForm[upsell_product]" value="<?= $upsellProduct['product']; ?>">
@@ -109,12 +109,12 @@ if(isset($_SESSION['previous_order'])){
               <input type="checkbox" name="UpsellForm[terms]" id="checkboxesTerms" value="1" required checked>
               <label class="form-check-label" for="checkboxesTerms">
                 <i class="custom-check"></i>
-                <span>Click the checkbox to agree to the&nbsp; <a href="/terms"> Subscription Terms and Conditions.</a></span>
+                <span>Click the checkbox to agree to the&nbsp; <a href="/products/terms"> Subscription Terms and Conditions.</a></span>
               </label>
             </div>
             <div class="help-block with-errors"></div>
           </div>
-          <a href="/order/thankyou" class="no-thanks mt-3">No thanks, I decline my order. </a>
+          <a href="/products/order/thankyou" class="no-thanks mt-3">No thanks, I decline my order. </a>
         </form>
       </div>
     </div>
@@ -128,27 +128,27 @@ if(isset($_SESSION['previous_order'])){
     <div class="container d-flex flex-direction-column">
       <div class="footer-top d-flex justify-content-between align-center">
         <div class="d-flex flex-direction-column">
-          <a href="/">
-            <img class="logo pt-60" src="/images/logo_reverse.png">
+          <a href="/products">
+            <img class="logo pt-60" src="/products/images/logo_reverse.png">
           </a>
           <div class="footer-nav pb-30">
-            <span class="white"><a href="/dmca">DMCA</a></span>
-            <span class="white"><a href="/terms">Terms & Conditions</a></span>
-            <span class="white"><a href="/privacy">Privacy Policy</a></span>
-            <span class="white last"><a href="/sitemap">sitemap</a></span>
+            <span class="white"><a href="/products/dmca">DMCA</a></span>
+            <span class="white"><a href="/products/terms">Terms & Conditions</a></span>
+            <span class="white"><a href="/products/privacy">Privacy Policy</a></span>
+            <span class="white last"><a href="/products/sitemap">sitemap</a></span>
           </div>
         </div>
         <div class="footer-nav pt-60">
-          <span class="white"><a href="/dmca">HOME</a></span>
-          <span class="white"><a href="/terms">HOW IT WORKS</a></span>
-          <span class="white"><a href="/privacy">FAQ</a></span>
-          <span class="white"><a href="/sitemap">GUARANTEE</a></span>
-          <span class="white last"><a href="/sitemap">ORDER</a></span>
+          <span class="white"><a href="/products/dmca">HOME</a></span>
+          <span class="white"><a href="/products/terms">HOW IT WORKS</a></span>
+          <span class="white"><a href="/products/privacy">FAQ</a></span>
+          <span class="white"><a href="/products/sitemap">GUARANTEE</a></span>
+          <span class="white last"><a href="/products/sitemap">ORDER</a></span>
         </div>
       </div>
       <div class="footer-bottom d-flex justify-content-between">
         <span>Superior Male © 2021. All Rights Reserved</span>
-        <img src="/images/upsell/upsell-payment.png" class="img-fluid">
+        <img src="/products/images/upsell/upsell-payment.png" class="img-fluid">
       </div>
   </div>
 </section>
@@ -257,7 +257,7 @@ $(document).ready(function(){
         return subscription;
       },
       onApprove: function (data, actions) {
-        paypalConfirm(data.subscriptionID, "/order/thankyou");
+        paypalConfirm(data.subscriptionID, "/products/order/thankyou");
       },
       onError: function (err) {
         upsellModal.show();

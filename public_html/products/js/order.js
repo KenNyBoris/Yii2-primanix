@@ -110,7 +110,7 @@ $(document).ready(function(){
     orderForm.validator('update');
 
     if (stepShippingInfo.validator('validate').has('.has-error').length === 0) {
-      $.post('/order/step-one', orderForm.serialize());
+      $.post('/products/order/step-one', orderForm.serialize());
 
       stepPaymentOption.removeClass('d-none');
       // stepCheckout.removeClass('d-none');
@@ -193,14 +193,12 @@ $(document).ready(function(){
                 window.location.href = res.redirect_to;
               }, 2000);
           } else {
-            console.log(2);
             orderModal.show();
             orderModalElem.find('#orderModalBody').addClass('error').html(orderModalHTML(res, 'error', true));
           }
           return ;
         },
         error: function () {
-          console.log(3);
           orderModal.show();
           orderModalElem.find('#orderModalBody').addClass('error').html(orderModalHTML('Internal Error', 'error', true));
         }
@@ -250,7 +248,7 @@ $(document).ready(function(){
       return subscription;
     },
     onApprove: function (data, actions) {
-      paypalConfirm(data.subscriptionID, "/order/upsell");
+      paypalConfirm(data.subscriptionID, "/products/order/upsell");
     },
     onError: function (err) {
       orderModal.show();

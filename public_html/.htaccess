@@ -1,16 +1,1 @@
-SetEnv PHPRC http://best-supplement-review.com/php.ini
-Options +FollowSymLinks
-
-RewriteEngine on
-
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php
-RewriteRule ^index\.php$ / [R=301,L]
-
-RewriteCond %{HTTP_HOST} ^http://best-supplement-review.com/
-RewriteRule (.*) http://best-supplement-review.com/$1 [R=301,L]
-
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule . index.php [L]
-
-
+SetEnv PHPRC /home/customer/www/primanixpro.com/public_html/php.ini
