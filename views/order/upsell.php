@@ -49,10 +49,10 @@ if(isset($_SESSION['previous_order'])){
         <img class="logo" src="/products/images/logo_reverse.png">
       </a>
       <div class="d-flex">
-        <span class="white"><a href="/products/dmca">HOME</a></span>
-        <span class="white"><a href="/products/terms">HOW IT WORKS</a></span>
-        <span class="white"><a href="/products/privacy">FAQ</a></span>
-        <span class="white"><a href="/products/sitemap">GUARANTEE</a></span>
+        <span class="white"><a href="/products/">HOME</a></span>
+        <span class="white"><a href="/products/howitworks">HOW IT WORKS</a></span>
+        <span class="white"><a href="/products/faq">FAQ</a></span>
+        <span class="white"><a href="/products/guarantee">GUARANTEE</a></span>
         <span class="white last"><a class="last" href="/products/sitemap">ORDER</a></span>
       </div>
     </div>
@@ -139,11 +139,11 @@ if(isset($_SESSION['previous_order'])){
           </div>
         </div>
         <div class="footer-nav pt-60">
-          <span class="white"><a href="/products/dmca">HOME</a></span>
-          <span class="white"><a href="/products/terms">HOW IT WORKS</a></span>
-          <span class="white"><a href="/products/privacy">FAQ</a></span>
-          <span class="white"><a href="/products/sitemap">GUARANTEE</a></span>
-          <span class="white last"><a href="/products/sitemap">ORDER</a></span>
+          <span class="white"><a href="/products/">HOME</a></span>
+          <span class="white"><a href="/products/howitworks">HOW IT WORKS</a></span>
+          <span class="white"><a href="/products/faq">FAQ</a></span>
+          <span class="white"><a href="/products/guarantee">GUARANTEE</a></span>
+          <span class="white last"><a href="/products/order">ORDER</a></span>
         </div>
       </div>
       <div class="footer-bottom d-flex justify-content-between">

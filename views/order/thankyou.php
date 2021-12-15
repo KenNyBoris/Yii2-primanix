@@ -10,14 +10,14 @@ $this->params['data'] = ['page' => 'thankyou', 'title' => 'Thank you!'];
   <div class="upsell-main position-relative">
     <img class="upsell_main" src="/products/images/upsell/upsell_main.png">
     <div class="container d-flex justify-content-between align-center">
-      <a href="/">
+      <a href="/products/">
         <img class="logo" src="/products/images/logo_reverse.png">
       </a>
       <div class="d-flex">
-        <span class="white"><a href="/prodcuts">HOME</a></span>
-        <span class="white"><a href="/prodcuts/howitworks">HOW IT WORKS</a></span>
-        <span class="white"><a href="/prodcuts/faq">FAQ</a></span>
-        <span class="white"><a href="/prodcuts/guarantee">GUARANTEE</a></span>
+        <span class="white"><a href="/products">HOME</a></span>
+        <span class="white"><a href="/products/howitworks">HOW IT WORKS</a></span>
+        <span class="white"><a href="/products/faq">FAQ</a></span>
+        <span class="white"><a href="/products/guarantee">GUARANTEE</a></span>
         <span class="white last"><a class="last" href="/products/order">ORDER</a></span>
       </div>
     </div>
@@ -34,21 +34,21 @@ $this->params['data'] = ['page' => 'thankyou', 'title' => 'Thank you!'];
     <div class="container d-flex flex-direction-column">
       <div class="footer-top d-flex justify-content-between align-center">
         <div class="d-flex flex-direction-column">
-          <a href="/">
+          <a href="/products/superior/">
             <img class="logo pt-60" src="/products/images/logo_reverse.png">
           </a>
           <div class="footer-nav pb-30">
-            <span class="white"><a href="/prodcuts/dmca">DMCA</a></span>
-            <span class="white"><a href="/prodcuts/terms">Terms & Conditions</a></span>
-            <span class="white"><a href="/prodcuts/privacy">Privacy Policy</a></span>
-            <span class="white last"><a href="/prodcuts/sitemap">sitemap</a></span>
+            <span class="white"><a href="/products/dmca">DMCA</a></span>
+            <span class="white"><a href="/products/terms">Terms & Conditions</a></span>
+            <span class="white"><a href="/products/privacy">Privacy Policy</a></span>
+            <span class="white last"><a href="/products/sitemap">sitemap</a></span>
           </div>
         </div>
         <div class="footer-nav pt-60">
-          <span class="white"><a href="/prodcuts">HOME</a></span>
-          <span class="white"><a href="/prodcuts/howitworks">HOW IT WORKS</a></span>
-          <span class="white"><a href="/prodcuts/faq">FAQ</a></span>
-          <span class="white"><a href="/prodcuts/guarantee">GUARANTEE</a></span>
+          <span class="white"><a href="/products">HOME</a></span>
+          <span class="white"><a href="/products/howitworks">HOW IT WORKS</a></span>
+          <span class="white"><a href="/products/faq">FAQ</a></span>
+          <span class="white"><a href="/products/guarantee">GUARANTEE</a></span>
           <span class="white last"><a href="/products/order">ORDER</a></span>
         </div>
       </div>

@@ -27,11 +27,10 @@ AppAsset::register($this);
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <!-- <link rel="stylesheet"
               href="/assets/vendor/fontawesome-free/css/all.min.css"> -->
-        <link rel="stylesheet" href="/css/style.css?v=0.56">
+        <link rel="stylesheet" href="/products/css/style.css?v=0.56">
         <?= Html::csrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
-        <link rel="stylesheet" href="/css/style-old.css">
         <script type="text/javascript">
             WebFontConfig = {
                 google: {families: ['Open Sans:300,400,600,700,800', 'Poppins:300,400,500,600,700', 'Open Sans Condensed:700', 'Oswald:200,300,400,500,600,700', 'Shadows Into Light',]},
@@ -69,7 +68,7 @@ AppAsset::register($this);
         <div class="admin-top">
     <div class="container">
             <div class="header-box">
-                <div class="logo"><a href="http://localhost:8080/"><img src="/images/logo.png" alt=""></a></div>
+                <div class="logo"><a href="/products/"><img src="/products/images/logo.png" alt=""></a></div>
             </div>
         </div>
     </div>

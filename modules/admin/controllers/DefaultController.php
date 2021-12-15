@@ -67,7 +67,7 @@ class DefaultController extends Controller
         $model = new \app\models\Forms\LoginForm();
         if (($model->load(\Yii::$app->request->post()) && $model->login())) {
             if(UtilityHelper::isAdmin()){
-                return $this->redirect('/admin/orders');
+                return $this->redirect('/products/admin/orders');
             }
         }
 
