@@ -1,4 +1,4 @@
-SetEnv PHPRC http://best-supplement-review.com/php.ini
+SetEnv PHPRC ./best-american-supplements.com/public_html/php.ini
 Options +FollowSymLinks
 
 RewriteEngine on
@@ -6,8 +6,8 @@ RewriteEngine on
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php
 RewriteRule ^index\.php$ / [R=301,L]
 
-RewriteCond %{HTTP_HOST} ^http://best-supplement-review.com/product/
-RewriteRule (.*) http://best-supplement-review.com/product//$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^best-american-supplements.com
+RewriteRule (.*) https://www.best-american-supplements.com/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
