@@ -18,6 +18,7 @@ Thumbs.db
 /runtime
 /config
 /public_html/products/.htaccess
+/public_html/products/php_errorlog
 
 # composer itself is not needed
 composer.phar
@@ -34,4 +35,4 @@ tests/_output/*
 tests/_support/_generated
 
 #vagrant folder
-/.vagrant
+/.vagrantconfig
