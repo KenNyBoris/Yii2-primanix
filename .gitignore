@@ -17,6 +17,7 @@ Thumbs.db
 /node_modules
 /runtime
 /config
+/public_html/products/.htaccess
 
 # composer itself is not needed
 composer.phar
