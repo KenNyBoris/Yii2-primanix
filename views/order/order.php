@@ -1,7 +1,7 @@
 <?php 
 use app\helpers\UtilityHelper;
 ?>
-<div class="header-top">
+<!-- <div class="header-top">
   <div class="container">
     <div class="nav-wrapper">
       <div class="d-flex mr-30">
@@ -20,7 +20,7 @@ use app\helpers\UtilityHelper;
     </a>
     <button class="cta_btn">Order Now</button>
   </div>
-</div>
+</div> -->
 <div class="header-main d-flex align-center flex-direction-column section-space">
   <div class="container">
     <h1 class="text-center uppercase">ORDER SUPERIOR MALE</h1>
@@ -223,7 +223,7 @@ use app\helpers\UtilityHelper;
     </div>
   </div>
   <div class="wrapper-5 pt-120 pb-60">
-    <p class="title-2 bold text-center mt-0 mb-0">TAKE PRIMARIX TO THE<br class="mobile-only"> HIGHEST LEVEL</p>
+    <p class="title-2 bold text-center mt-0 mb-0">TAKE ORDER SUPERIOR TO THE<br class="mobile-only"> HIGHEST LEVEL</p>
     <h3 class="header_title bold grey mt-0">See how much your life can change with Superior Male!</h3>
     <div class="container">
       <p class="description bold pt-30 mb-0">PHASE 1: SUPERIOR SEX DRIVE</p>
@@ -357,7 +357,7 @@ use app\helpers\UtilityHelper;
             <div class="d-flex justify-content-center pt-30 pb-60">
               <button id="btnSubmitStepOne" class="shipping_btn semibold">Continue to step 2</button>
             </div>
-            <p class="disclaimer_text text-center">Disclaimer: These statements have not been evaluatThese statements have not been evaluated by the Food<br class="desktop-only"> and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.ed by the<br class="desktop-only"> Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+            <p class="disclaimer_text text-center">Disclaimer: These statements have not been evaluated by the Food and Drug Administration.<br class="desktop-only"> This product is not intended to diagnose, treat, cure, or prevent any disease.ed by the Food and Drug Administration. </p>
           </div>
           <div id="stepPaymentOption" class="steps step-2 d-none pb-30">
             <div class="step_pane d-flex pb-30">
@@ -439,7 +439,7 @@ use app\helpers\UtilityHelper;
               <button id="btnSubmitOrder" class="shipping_btn semibold">COMPLETE MY ORDER!</button>
               <div id="paypalContainer" class="text-center"></div>
             </div>
-            <p class="disclaimer_text text-center">Disclaimer: These statements have not been evaluatThese statements have not been evaluated by the Food<br class="desktop-only"> and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.ed by the<br class="desktop-only"> Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+            <p class="disclaimer_text text-center">Disclaimer: These statements have not been evaluated by the Food and Drug Administration. <br class="desktop-only">This product is not intended to diagnose, treat, cure, or prevent any disease.ed by the Food and Drug Administration.</p>
           </div>
         </div>
       </div>
@@ -455,7 +455,7 @@ use app\helpers\UtilityHelper;
     </div>
   </div>
 </div>
-<div class="footer bg-black pt-30 pb-30">
+<!-- <div class="footer bg-black pt-30 pb-30">
   <div class="container d-flex flex-direction-column align-center">
     <a href="/products">
       <img class="logo" src="/products/images/order/logo.png">
@@ -468,7 +468,7 @@ use app\helpers\UtilityHelper;
     </div>
     <p class="disclaimer_text medium white mt-0">Superior Male © 2021. All Rights Reserved</p>
   </div>
-</div>
+</div> -->
 <?php
 // Superior Male Pro 1 Month
 $pmx_1_month = UtilityHelper::getCustomParameters('pmx_1_month');

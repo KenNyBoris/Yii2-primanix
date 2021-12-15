@@ -352,9 +352,7 @@ h3 {
 body {
   background-color: #fff;
 }
-header {
-  position: relative;
-}
+.header,
 .wrapper-1,
 .wrapper-2,
 .wrapper-4,
@@ -657,8 +655,8 @@ header {
   margin-top: 30px;
 }
 .title-2 {
-  font-size: 80px;
-  line-height: 0.6;
+  font-size: 65px;
+  line-height: 1;
   position: relative;
 }
 .title-2:after {
@@ -1250,13 +1248,6 @@ body.thankyou .main-section h2 {
   padding: 0;
 }
 
-.upsell header,
-.upsell footer,
-.thankyou header,
-.thankyou footer {
-  display: none;
-}
-
 .upsell .footer span,
 .thankyou .footer span {
   padding-left: 0;
@@ -1307,6 +1298,42 @@ body.thankyou .main-section h2 {
 
 .upsell-main span a.last {
   padding-right: 0;
+}
+
+.superior-header .logo {
+  position: relative;
+  margin: 15px 0;
+  width: fit-content;
+  margin-top: 23px;
+  z-index: 1;
+}
+.superior-header .header-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #191919;
+}
+.superior-header .nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.superior-header .nav-wrapper img {
+  height: fit-content;
+}
+.superior-header .header-bottom {
+  background-color: #000000;
+}
+.superior-header .cta_btn {
+  border-radius: 30px;
+  padding: 15px 60px;
+  color: #fff;
+  border: none;
+  background-color: #067309;
+  cursor: pointer;
+}
+
+#home_page_body .superior-header {
+  display: none;
 }
 
 #home_page_body .page-wrapper {
@@ -2130,6 +2157,34 @@ body.thankyou .main-section h2 {
     font-size: 12px;
     text-align: center;
   }
+  .superior-header .logo {
+    width: 80%;
+    margin-top: 15px;
+  }
+  .superior-header .cta_btn {
+    width: 100%;
+    font-size: 10px;
+    padding: 5px 20px;
+  }
+  .superior-header .nav-wrapper {
+    flex-direction: row;
+  }
+  .superior-header .nav-wrapper .d-flex {
+    justify-content: flex-start;
+    width: 50%;
+  }
+  .superior-header .description {
+    font-size: 12px;
+  }
+  .superior-header .security {
+    width: 100%;
+  }
+  .superior-header .header-top .container {
+    width: 100%;
+  }
+  .superior-header .cta_pane {
+    width: 60%;
+  }
 }
 @media (max-width: 550px) {
   .header_main {
@@ -2166,7 +2221,11 @@ body.thankyou .main-section h2 {
     font-size: 16px;
   }
   .title-2 {
-    font-size: 45px;
+    font-size: 30px;
+  }
+  .title-2:after {
+    top: 0;
+    width: 40%;
   }
   .trophy_description {
     margin: 0;
@@ -2197,12 +2256,5 @@ body.thankyou .main-section h2 {
   }
   .pro_pane {
     margin-bottom: 0;
-  }
-  .effect_des .title-2 {
-    font-size: 30px;
-  }
-  .effect_des .title-2:after {
-    top: 0;
-    width: 40%;
   }
 }

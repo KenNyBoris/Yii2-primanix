@@ -6,7 +6,7 @@ return [
   'senderName' => 'Example.com mailer',
   'salt' => '$2a$10$Q7qlnTFPwKq4D6csshB3n5',
 
-  'SiteName' => 'Primanix Pro',
+  'SiteName' => 'SUPERIOR MALE',
   'SiteUrl' => 'best-american-supplements.com',
   'SiteEmail' => 'contact@best-american-supplements.com',
   'SitePhone' => '1-855-775-1456',
@@ -14,26 +14,26 @@ return [
   // Order Products
   // Order Products
   'pmx_1_month' => [
-    'name' => 'Primanix Pro 1 Month',
+    'name' => 'SUPERIOR MALE 1 Month',
     'amount' => 69.95,
-    'cc' => 4740,
-    'pp' => 4746, 
+    'cc' => 4903,
+    'pp' => 4909, 
     'pp_code' => 'P-47Y57844Y54181255MGXDWBI', // Live
     //'pp_code' => 'P-8N8509919A500544LMGIPYGY', // Test
   ],
   'pmx_3_month' => [
-    'name' => 'Primanix Pro 3 Month',
+    'name' => 'SUPERIOR MALE 3 Month',
     'amount' => 129.95,
-    'cc' => 4741,
-    'pp' => 4747, 
+    'cc' => 4904,
+    'pp' => 4910, 
     'pp_code' => 'P-8U056245DL4186130MGXDWQQ', // Live
     //'pp_code' => 'P-4DU9608778864723TMGIPYTA', // Test
   ],
   'pmx_6_month' => [
-    'name' => 'Primanix Pro 6 Month',
+    'name' => 'SUPERIOR MALE 6 Month',
     'amount' => 189.95,
-    'cc' => 4742,
-    'pp' => 4748, 
+    'cc' => 4905,
+    'pp' => 4911, 
     'pp_code' => 'P-8CH784060P250841CMGXDXCA', // Live
     //'pp_code' => 'P-33K657256M1462107MGIPY5Q', // Test
   ],
@@ -41,26 +41,26 @@ return [
   
   // Upsell Products
   'ueb_1_month' => [
-    'name' => 'Ultimate Erection Booster 1 Month',
+    'name' => 'SUPERIOR MALE 1 Month',
     'amount' => 59.95,
-    'cc' => 4607,
-    'pp' => 4613, 
+    'cc' => 4983,
+    'pp' => 4985, 
     'pp_code' => 'P-27044541P0531321YMGXD5KQ', // Live
     //'pp_code' => 'P-24D74545606207931MGONKPQ', // Test
   ],
   'ueb_3_month' => [
-    'name' => 'Ultimate Erection Booster 3 Month',
+    'name' => 'SUPERIOR MALE 3 Month',
     'amount' => 119.95,
-    'cc' => 4608,
-    'pp' => 4614, 
+    'cc' => 4983,
+    'pp' => 4985, 
     'pp_code' => 'P-55E65472F2940413DMGXD5ZY', // Live
     //'pp_code' => 'P-5F10969608609930UMGONK6Q', // Test
   ],
   'ueb_6_month' => [
-    'name' => 'Ultimate Erection Booster 6 Month',
+    'name' => 'SUPERIOR MALE 6 Month',
     'amount' => 179.95,
-    'cc' => 4609,
-    'pp' => 4615, 
+    'cc' => 4983,
+    'pp' => 4985, 
     'pp_code' => 'P-9PY59871HD499903RMGXEC6A', // Live
     //'pp_code' => 'P-2AL503182M464902TMGONLRI', // Test
   ],

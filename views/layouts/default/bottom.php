@@ -11,7 +11,7 @@
       <a href="/products/">
         <img class="logo" src="/products/images/logo_reverse.png">
       </a>
-      <p class="description medium white mt-0">Black Diamond © 2021 . <br class="mobile-only">All Rights Reserved</p>
+      <p class="description medium white mt-0">Superior Male © 2021 . <br class="mobile-only">All Rights Reserved</p>
     </div>
   </div>
 </footer>

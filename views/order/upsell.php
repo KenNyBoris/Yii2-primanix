@@ -37,7 +37,7 @@ if(isset($_SESSION['previous_order'])){
 }
 ?>
 <link href="/products/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<div class="upsell-header">
+<!-- <div class="upsell-header">
   <img class="upsell_header" src="/products/images/upsell/upsell_header.png">
   <div class="container d-flex flex-direction-column">
     <p class="title white RiftDemiItalic">CALL TOLL FREE 1-800-296-1686</p>
@@ -57,7 +57,7 @@ if(isset($_SESSION['previous_order'])){
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!-- Intro Section -->
 <section class="intro-section">
   <div class="container text-center">
@@ -77,7 +77,7 @@ if(isset($_SESSION['previous_order'])){
       <div class="col-xl-6 text-center left mb-3 mb-xl-0">
         <div class="d-flex flex-column flex-lg-row align-items-center flex-xl-column">
           <div class="image">
-            <img src="/products/images/upsell/ueb-package.png" class="img-fluid" alt="Ultimate Erection Booster">
+            <img src="/products/images/upsell/ueb-package.png" class="img-fluid" alt="SUPERIOR MALE">
           </div>
           <div class="text">
             <h5 class="RiftMediumItalic">Clinically tested to increase testosterone</h5>
@@ -123,7 +123,7 @@ if(isset($_SESSION['previous_order'])){
     </div>
   </div>
 </section>
-<section class="footer">
+<!-- <section class="footer">
   <div class="bg-black section-space">
     <div class="container d-flex flex-direction-column">
       <div class="footer-top d-flex justify-content-between align-center">
@@ -151,7 +151,7 @@ if(isset($_SESSION['previous_order'])){
         <img src="/products/images/upsell/upsell-payment.png" class="img-fluid">
       </div>
   </div>
-</section>
+</section> -->
 <!-- Modal -->
 <div class="modal fade" id="upsellModal" tabindex="-1" role="dialog" data-bs-backdrop="static" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">

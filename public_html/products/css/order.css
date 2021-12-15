@@ -40,9 +40,6 @@
 header {
   display: none;
 }
-footer {
-  display: none;
-}
 .pl-15 {
   padding-left: 15px;
 }
@@ -432,7 +429,7 @@ label {
   width: 40%;
 }
 .flag {
-  width: fit-content;
+  width: 550px;
 }
 .form-control {
   background-color: #ffffff;
@@ -502,9 +499,6 @@ label {
 }
 .footer-nav span.disclaimer_text {
   font-size: 12px;
-}
-.footer-nav span:after {
-  display: none;
 }
 .disclaimer_text {
    font-size: 12px;
@@ -594,9 +588,9 @@ label span.red {
 .footer-nav.red {
   color: #ff0f0f;
 }
-.footer-nav span a {
+/*.footer-nav span a {
   color: #ff0f0f; 
-}
+}*/
 .footer-nav .disclaimer_text {
   display: block;
   padding: 5px 10px;
@@ -976,6 +970,7 @@ label span.red {
   }
   .footer .logo {
     width: 100%;
+    margin-left: 0;
   }
   .footer .disclaimer_text {
     font-size: 12px;
