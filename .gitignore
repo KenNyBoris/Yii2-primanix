@@ -16,6 +16,7 @@ Thumbs.db
 /vendor
 /node_modules
 /runtime
+/config
 
 # composer itself is not needed
 composer.phar
