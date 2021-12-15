@@ -2049,7 +2049,7 @@ body.thankyou .main-section h2 {
     text-align: center;
   }
   .bottle_twice {
-    width: 120%;
+    width: 100%;
     margin-top: 0;
     margin-bottom: 30px;
   }
@@ -2197,5 +2197,12 @@ body.thankyou .main-section h2 {
   }
   .pro_pane {
     margin-bottom: 0;
+  }
+  .effect_des .title-2 {
+    font-size: 30px;
+  }
+  .effect_des .title-2:after {
+    top: 0;
+    width: 40%;
   }
 }
