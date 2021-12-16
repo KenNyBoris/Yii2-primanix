@@ -6,6 +6,15 @@ $(document).ready(function(){
             : {'opacity': 1,'visibility': 'visible'};
     $('#topMenu').css(style);
   });
+  $(document).on("click", ".btn_check img", function() {
+    if($(this).parent().hasClass("failed")) {
+      $(this).closest(".container").find(".answer_txt").fadeOut();
+      $(".bg_effect").css("top", "-70%");
+    } else {
+      $(this).closest(".container").find(".answer_txt").fadeIn();
+      $(".bg_effect").css("top", "-60%");
+    }
+  });
 });
 // FUNCTIONS
 function updateAgreeText(termsContainer, productIdValue) {

@@ -38,7 +38,6 @@ $this->params['data'] = ['page' => 'home', 'title' => 'Home'];
   <div class="wrapper-1">
     <img class="bg_wrapper1" src="/products/images/bg_wrapper1.png">
     <div class="container section-space position-relative">
-      <img class="doctor_avatar" src="/products/images/actor_1.png">
       <div class="information_pane">
         <img class="verified" src="/products/images/verified.png">
         <p class="description text-center white pt-15">“Hi, I’m Dr. Fischer, and they call me the porn doctor. I’ve seen a lot of pills that claim to increase size, but only one supplement fits the bill. Superior Male has the extreme potency, quality, and results you need from a natural enlargement pill, and that’s why it’s the only supplement for adult porn stars!”</p>
@@ -73,14 +72,14 @@ $this->params['data'] = ['page' => 'home', 'title' => 'Home'];
                 <img src="/products/images/btn_check.png">
                 <h3 class="grey">YES</h3>
               </div>
-              <div class="btn_check">
+              <div class="btn_check failed">
                 <img src="/products/images/btn_fail.png">
                 <h3 class="grey">NO</h3>
               </div>
             </div>
           </div>
         </div>
-        <p class="description ml-30 mt-30 grey">The simple truth is that BIGGER is always BETTER when it comes to erection size. Countless research, tests, and surveys say that women have more satisfying orgasms when having sex with well-endowed men, and the #1 reason why women fail to orgasm is because of their partner’s erection size. Here’s the kicker – women only orgasm 10% of the time, and if your erection is on the small to average size, that means that you’re not satisfying your wife or girlfriend in bed.</p>
+        <p class="description ml-30 mt-30 grey answer_txt">The simple truth is that BIGGER is always BETTER when it comes to erection size. Countless research, tests, and surveys say that women have more satisfying orgasms when having sex with well-endowed men, and the #1 reason why women fail to orgasm is because of their partner’s erection size. Here’s the kicker – women only orgasm 10% of the time, and if your erection is on the small to average size, that means that you’re not satisfying your wife or girlfriend in bed.</p>
       </div>
     </div>
   </div>
@@ -99,20 +98,20 @@ $this->params['data'] = ['page' => 'home', 'title' => 'Home'];
                 <img src="/products/images/btn_check.png">
                 <h3 class="grey">YES</h3>
               </div>
-              <div class="btn_check">
+              <div class="btn_check failed">
                 <img src="/products/images/btn_fail.png">
                 <h3 class="grey">NO</h3>
               </div>
             </div>
           </div>
         </div>
-        <ul class="ml-30 mt-30 grey">
+        <ul class="ml-30 mt-30 grey answer_txt">
           <li class="ml-30">Bigger and Harder Erections</li>
           <li class="ml-30">Long-lasting stamina during sex</li>
           <li class="ml-30">Massive loads when you orgasm</li>
           <li class="ml-30">A massive boost to your sex drive and energy</li>
         </ul>
-        <p class="description ml-30 mt-30 grey">Superior Male’s Accelerated Expansion Formula is not all about boosting your erection hardness and size. The results you get with Superior Male go beyond the 1 to 4-inch boost in erect penis length and girth. Superior Male is also scientifically verified to double, or even TRIPLE your sexual desire, energy, and stamina like no other natural supplement has done before. On average, Superior Male users have sex about 10 times a week, lasting for at least 30 minutes before ejaculating, with at 2-3 different sexual partners! </p>
+        <p class="description ml-30 mt-30 grey answer_txt">Superior Male’s Accelerated Expansion Formula is not all about boosting your erection hardness and size. The results you get with Superior Male go beyond the 1 to 4-inch boost in erect penis length and girth. Superior Male is also scientifically verified to double, or even TRIPLE your sexual desire, energy, and stamina like no other natural supplement has done before. On average, Superior Male users have sex about 10 times a week, lasting for at least 30 minutes before ejaculating, with at 2-3 different sexual partners! </p>
       </div>
     </div>
     <div class="item_section section-space bg-lightgrey">
@@ -129,14 +128,14 @@ $this->params['data'] = ['page' => 'home', 'title' => 'Home'];
                 <img src="/products/images/btn_check.png">
                 <h3 class="grey">YES</h3>
               </div>
-              <div class="btn_check">
+              <div class="btn_check failed">
                 <img src="/products/images/btn_fail.png">
                 <h3 class="grey">NO</h3>
               </div>
             </div>
           </div>
         </div>
-        <p class="description ml-30 mt-30 grey">The REAL #1 cause of divorce in the United States is the lack of sexual satisfaction in their marriage. Many overlook the power of great sex in a relationship, and there are only a few marital problems that great sex can’t fix. A physical relationship is deeply rooted in procreation and sex, that’s why women prefer to stick with men who can satisfy their deepest carnal needs. This is also the reason why men with LARGE PENISES tend to be more confident than men with average-sized penises. Men unconsciously think that sex is a competition where the winner is the one who gets to give the most pleasure to women.</p>
+        <p class="description ml-30 mt-30 grey answer_txt">The REAL #1 cause of divorce in the United States is the lack of sexual satisfaction in their marriage. Many overlook the power of great sex in a relationship, and there are only a few marital problems that great sex can’t fix. A physical relationship is deeply rooted in procreation and sex, that’s why women prefer to stick with men who can satisfy their deepest carnal needs. This is also the reason why men with LARGE PENISES tend to be more confident than men with average-sized penises. Men unconsciously think that sex is a competition where the winner is the one who gets to give the most pleasure to women.</p>
       </div>
     </div>
     <div class="item_section section-space">
@@ -153,15 +152,15 @@ $this->params['data'] = ['page' => 'home', 'title' => 'Home'];
                 <img src="/products/images/btn_check.png">
                 <h3 class="grey">YES</h3>
               </div>
-              <div class="btn_check">
+              <div class="btn_check failed">
                 <img src="/products/images/btn_fail.png">
                 <h3 class="grey">NO</h3>
               </div>
             </div>
           </div>
         </div>
-        <p class="description ml-30 mt-30 grey">Most Superior Male men have used another male enhancement supplement before, and it could be because of this chart why thousands of men are switching to Superior Male. Results start with the formulation, and NO SUPPLEMENT can match the power of Superior Male.</p>
-        <p class="description ml-30 mt-30 grey">About 4 out of 10 men in the United States have tried sexual enhancement products, and about 97% of these men had unfortunate experiences with such products. Superior Male is a generation ahead of any other product in the market today. Just compare Superior Male with any other supplement and you’ll see why Superior Male outperforms other products on every level.</p>
+        <p class="description ml-30 mt-30 grey answer_txt">Most Superior Male men have used another male enhancement supplement before, and it could be because of this chart why thousands of men are switching to Superior Male. Results start with the formulation, and NO SUPPLEMENT can match the power of Superior Male.</p>
+        <p class="description ml-30 mt-30 grey answer_txt">About 4 out of 10 men in the United States have tried sexual enhancement products, and about 97% of these men had unfortunate experiences with such products. Superior Male is a generation ahead of any other product in the market today. Just compare Superior Male with any other supplement and you’ll see why Superior Male outperforms other products on every level.</p>
       </div>
     </div>
   </div>
@@ -604,7 +603,7 @@ $this->params['data'] = ['page' => 'home', 'title' => 'Home'];
         <img class="desktop-only" src="/products/images/bottle_shipping.png">
         <img class="mobile-only" src="/products/images/bottle_shipping_mobile.png">
         <img class="five_stars" src="/products/images/5_stars.png">
-        <p class="title-5 text-center yellow">Superior Male is the #1 Rated 5 Star Penis Enlargement Suppement by multiple supplement review sites</p>
+        <p class="title-5 text-center yellow">Superior Male is the<br class="mobile-only"> #1 Rated 5 Star Penis Enlargement Suppement by multiple supplement review sites</p>
       </div>
     </div>
     <div class="cta_pane d-flex justify-content-center possition_relative">

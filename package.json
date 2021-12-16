@@ -1,7 +1,7 @@
 {
-  "name": "primanixpro",
+  "name": "superiormale",
   "version": "1.0.0",
-  "description": "Primanix Pro",
+  "description": "Superior Male",
   "main": "index.js",
   "scripts": {
     "start": "gulp",

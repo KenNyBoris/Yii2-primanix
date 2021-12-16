@@ -266,7 +266,8 @@ $(document).ready(function(){
   updateAgreeText(termsContainer, productIdValue);
 });
 
-$(".cta_btn").click(function() {
+$(".cta_btn").click(function(e) {
+  e.preventDefault();
   $('html, body').animate({
     scrollTop: $(".wrapper-6").offset().top
   }, 1000);
